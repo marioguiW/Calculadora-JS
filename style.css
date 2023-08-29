@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(to left bottom,gray, rgb(45, 44, 44));
+    height: 100vh;
+}
+
+.calculadora{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: rgb(130, 128, 128);
+    opacity: 90%;
+    border-radius: 15px;
+}
+
+.tela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-left:3px ;
+    margin-right:3px ;
+    background-color: white;
+}
+
+
+.numero_tela{
+    display: flex;
+    width: 100%;
+    height: 47px;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-size: 30px;
+    padding-right: 5px;
+    border: 3px solid rgb(82, 38, 143);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+
+.button{
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(60, 59, 59);
+    border: none;
+    color: white;
+    transition: all 0.3s;
+}
+
+.button:hover{
+    background-color: rgb(80, 79, 79);
+}
+
